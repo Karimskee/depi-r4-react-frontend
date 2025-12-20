@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.container {
+    /* background-color: blue; */
+    width: 90%;
+    margin: auto;
+    margin-top: 15vh;
+
+    .item {
+        /* background-color: green; */
+        display: inline-block;
+        width: 24.7249%;
+        height: 100%;
+        text-align: center;
+
+        i {
+            font-size: 35px;
+            color: #999999;
+        }
+
+        .p1 {
+            font-size: 55px;
+            color: #404040;
+            margin-top: 24px;
+            margin-bottom: 11px;
+        }
+
+        .p0 {
+            font-size: 21px;
+            color: #737373;
+        }
+    }
+}

@@ -1,0 +1,143 @@
+#hero-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+
+    .item {
+        h1 {
+            font-size: 80px;
+            margin-bottom: 40px;
+        }
+
+        p {
+            color: gray;
+            font-size: 17px;
+            line-height: 1.5;
+        }
+
+        a {
+            background-color: rgba(0, 17, 255, 0.13);
+            text-decoration: none;
+        }
+
+        button {
+            border-radius: 60px;
+            border: 1px solid;
+            width: 150px;
+            height: 50px;
+            margin: 25px 5px 0 0;
+        }
+
+        #see-features {
+            color: white;
+            background-color: dodgerblue;
+        }
+
+        #pricing {
+            color: dodgerblue;
+            border-color: dodgerblue;
+            background-color: white;
+        }
+    }
+}
+
+#digital-services-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+
+    .item {
+        margin-inline: 2.5%;
+
+        .digital-services {
+            color: dodgerblue;
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+        .gray-text {
+            color: gray;
+        }
+
+        ul {
+            color: gray;
+        }
+
+        .james-anderson {
+            display: flex;            
+            margin-right: 15px;
+
+            .info {
+                flex-direction: column;
+
+                p {
+                    white-space: nowrap;
+                    line-height: 0.5;
+                }
+            }
+        }
+    }
+}
+
+#untree-co-vertical {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+
+    .item {
+        margin-inline: 2.5%;
+        
+        p {
+            color: gray;
+        }
+
+        i {
+            font-size: 30px;
+        }
+    }
+}
+
+#untree-co-horizontal {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    
+    .item {
+        width: 25%;
+
+        .item2 {
+            flex-direction: row;
+        }
+
+        p {
+            color: gray;
+        }
+
+        i {
+            font-size: 30px;
+            background-color: cyan;
+            border-radius: 20px;
+            padding: 30px;
+        }
+    }
+}
+
+/* Images */
+
+.market-launch-pana {
+    width: 650px;
+}
+
+.james-anderson {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.untree-dashboard {
+    width: 630px;
+}
