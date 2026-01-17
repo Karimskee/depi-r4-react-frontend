@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+}
+
+.container {
+    height: 120vh;
+    width: 95%;
+
+    margin-top: 5vh;
+    margin-inline: auto;
+
+    .box {
+        float: left;
+        height: 50%;
+        width: 20%;
+
+        position: relative;
+        overflow: hidden;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .top-bar {
+            background: linear-gradient(120deg, orange, rgb(236, 21, 75));
+            height: 12.5%;
+            width: 60%;
+
+            position: absolute;
+            
+            top: -15%;
+            left: 20%;
+
+            transition: 0.5s;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            border-bottom-left-radius: 10%;
+            border-bottom-right-radius: 10%;
+
+            i {
+                font-size: 120%;
+            }
+        }
+
+        .bottom-bar {
+            background-color: white;
+            height: 25%;
+            width: 90%;
+            
+            position: absolute;
+
+            bottom: 5%;
+            left: -90%;
+
+            transition: 0.5s;
+        }
+
+        &:hover .top-bar {
+            top: 0;
+            left: 20%;
+        }
+
+        &:hover .bottom-bar {
+            bottom: 5%;
+            left: 5%;
+        }
+    }
+}

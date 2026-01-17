@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+}
+
+.container {
+    /* background-color: blue; */
+    height: 80vh;
+    width: 80%;
+
+    margin-top: 5vh;
+    margin-inline: auto;
+
+    .first-row, .second-row {
+        /* background-color: green; */
+        height: 50%;
+        width: 100%;
+
+        /* padding: 10px; */
+
+        .item {
+            /* background-color: yellow; */
+            height: 100%;
+            width: 20%;
+            
+            float: left;
+            position: relative;
+            overflow: hidden;
+
+            margin: 26px;
+
+            img {
+                height: 100%;
+                width: 100%;
+
+                position: absolute;
+            }
+
+            .side-bar {
+                background-color: dodgerblue;
+                height: 100%;
+                width: 15%;
+
+                position: absolute;
+                left: -15%;
+
+                transition: 0.25s;
+
+                box-sizing: border-box;
+
+                padding: 3px;
+
+                i {
+                    font-size: 20px;
+                    margin-top: 10px;
+                }
+            }
+
+            &:hover .side-bar {
+                left: 0;
+                transition: 0.25s;
+            }
+        }
+    }
+}
