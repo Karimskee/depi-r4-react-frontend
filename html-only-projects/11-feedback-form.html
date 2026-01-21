@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <header>
+        <h1>Website Feedback Form</h1>
+    </header>
+
+    <main>
+        <section>
+            <form>
+                <div class="name-field">
+                    <label for="name">Name:</label> <br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <br>    
+
+                <div class="email-field">
+                    <label for="email">Email:</label> <br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <br><br>
+
+                <div class="experience-field">
+                    <label>How would you rate your experience?</label> <br><br>
+                
+                    <input type="radio" id="excellent" name="experience" value="Excellent">
+                    <label for="excellent">Excellent</label> <br>
+
+                    <input type="radio" id="good" name="experience" value="Good">
+                    <label for="good">Good</label> <br>
+
+                    <input type="radio" id="poor" name="experience" value="Poor">
+                    <label for="poor">Poor</label> <br>
+                </div>
+
+                <br>
+
+                <div class="used-features-field">
+                    <label>Which features did you use?</label> <br>
+
+                    <input type="checkbox" id="blog" name="used-features" value="Blog">
+                    <label for="blog">Blog</label> <br>
+
+                    <input type="checkbox" id="forum" name="used-features" value="Forum">
+                    <label for="forum">Forum</label> <br>
+
+                    <input type="checkbox" id="documentation" name="used-features" value="Documentation">
+                    <label for="documentation">Documentation</label> <br>
+                </div>
+
+                <br>
+
+                <div class="to-improve-field">
+                    <label for="to-improve">What would you like us to improve?</label> <br>
+                    <select name="to-improve-list" id="to-improve">
+                        <option value="Design">Design</option>
+                        <option value="Content">Content</option>
+                        <option value="Navigation">Navigation</option>
+                        <option value="Performance">Performance</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div class="comment-field">
+                    <label for="comments">Additional Comments:</label> <br>
+                    <textarea id="comments" name="comments" rows="5" cols="30"></textarea>
+                </div>
+
+                <br>
+
+                <div class="submit-button">
+                    <input type="submit" value="Submit Feedback">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
