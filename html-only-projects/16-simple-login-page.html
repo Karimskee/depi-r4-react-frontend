@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        header {
+            margin-top: 40px;
+        }
+
+        main {
+            width: 30%;
+            /* background-color: blue; */
+            margin: auto;
+
+            label {
+                display: block;    
+                text-align: start;
+                margin-bottom: -10px;
+            }
+            
+            input {
+                width: 98%;
+                height: 40px;
+            }
+            
+            .remember {
+                display: block;
+                text-align: start;
+
+                label {
+                    display: inline;
+                }
+
+                input {
+                    height: initial;
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Login</h1>
+    </header>
+
+    <main>
+        <form action="#" method="GET">
+            <label for="username">Username or Email</label> <br>
+            <input type="text" name="username" id="username"> <br>
+
+            <label for="password">Password</label> <br>
+            <input type="password" name="password" id="password"> <br>
+            
+            <div class="remember">
+                <input type="checkbox" name="remember-me" id="remember-me">
+                <label for="remember-me"> Remember me</label> <br>
+            </div>
+
+            <input type="submit" value="Login">
+        </form>
+    </main>
+</body>
+</html>
