@@ -2,7 +2,7 @@
 ---
 
 ### Search for
-- percentage of mixed languages, while having lang=
+- percentage of mixed languages, while having lang= (for SEO?)
 - google analytics
 - UTF-8
 - SEO meta keywords degrading

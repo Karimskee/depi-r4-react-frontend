@@ -1,0 +1,77 @@
+.box {
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+
+    margin-top: 50px;
+    margin-inline: auto;
+
+    position: relative;
+    overflow: hidden;
+
+    /* object-fit: contain; */
+
+    img {
+        height: 150%;
+        width: 150%;
+        object-fit: cover;
+        position: relative;
+        left: -30%;
+        top: -20%;
+        transition: 0.3s;
+    }
+
+    h4 {
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        left: 80px;
+        bottom: 20px;
+        opacity: 0%;
+        transition: 0.5s;
+    }
+
+    p {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        left: 80px;
+        bottom: 80px;
+        opacity: 0%;
+        transition: 0.5s;
+    }
+
+    .circle {
+        background-color: rgb(0, 119, 255);
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+
+        position: absolute;
+        bottom: -280px;
+        left: -280px;
+
+        transition: 0.3s;
+    }
+
+    &:hover .circle {
+        bottom: -70px;
+        left: -70px;
+    }
+
+    &:hover img {
+        transform: scale(0.8);
+    }
+
+    &:hover h4 {
+        left: 30px;
+        bottom: 20px;
+        opacity: 100%;
+    }
+
+    &:hover p {
+        left: 30px;
+        bottom: 80px;
+        opacity: 100%;
+    }
+}
