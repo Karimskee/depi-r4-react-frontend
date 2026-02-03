@@ -1,0 +1,33 @@
+div {
+    width: 640px;
+    height: 480px;
+
+    /* background-image: url("../assets/frames collection/image 2.png"); */
+    margin: auto;
+    
+    border-radius: 20px;
+
+    animation: anim 5s infinite;
+}
+
+@keyframes anim {
+    0% { background-image: url("../assets/frames collection/image 2.png"); }
+    5% { background-image: url("../assets/frames collection/image 3.png"); }
+    10% { background-image: url("../assets/frames collection/image 4.png"); }
+    15% { background-image: url("../assets/frames collection/image 5.png"); }
+    20% { background-image: url("../assets/frames collection/image 6.png"); }
+    25% { background-image: url("../assets/frames collection/image 7.png"); }
+    30% { background-image: url("../assets/frames collection/image 8.png"); }
+    35% { background-image: url("../assets/frames collection/image 9.png"); }
+    40% { background-image: url("../assets/frames collection/image 10.png"); }
+    45% { background-image: url("../assets/frames collection/image 11.png"); }
+    60% { background-image: url("../assets/frames collection/image 12.png"); }
+    65% { background-image: url("../assets/frames collection/image 13.png"); }
+    70% { background-image: url("../assets/frames collection/image 14.png"); }
+    75% { background-image: url("../assets/frames collection/image 15.png"); }
+    80% { background-image: url("../assets/frames collection/image 16.png"); }    
+    85% { background-image: url("../assets/frames collection/image 17.png"); }
+    90% { background-image: url("../assets/frames collection/image 18.png"); }
+    95% { background-image: url("../assets/frames collection/image 19.png"); }
+    100% { background-image: url("../assets/frames collection/image 2.png"); }
+}

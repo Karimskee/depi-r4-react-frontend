@@ -1,0 +1,16 @@
+img {
+    width: 100vh;
+    animation: anim 2s infinite;
+}
+
+@keyframes anim {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

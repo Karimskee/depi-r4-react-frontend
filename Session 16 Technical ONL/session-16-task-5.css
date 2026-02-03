@@ -1,0 +1,45 @@
+body {
+    background-color: #999;
+}
+
+.capsule {
+    width: 15px;
+    height: 25px;
+
+    margin-inline: auto;
+    margin-top: 20%;
+
+    border: 1.5px solid white;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    .point {
+        width: 5px;
+        height: 5px;
+
+        background-color: white;
+        opacity: 70%;
+
+        border-radius: 50px;
+
+        position: absolute;
+        top: 20%;
+
+        animation: capsule-animation 3s infinite;
+    }
+}
+
+@keyframes capsule-animation {
+    50% {
+        top: 40%;
+        opacity: 0%;
+    }
+
+    100% {
+        top: 20%;
+        opacity: 0%;
+    }
+}

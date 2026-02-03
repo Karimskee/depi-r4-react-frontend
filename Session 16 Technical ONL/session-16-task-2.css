@@ -1,0 +1,22 @@
+img {
+    display: block;
+    width: 100vh;
+    margin-top: 20vh;
+    margin-inline: auto;
+    animation: anim 4s infinite;
+}
+
+@keyframes anim {
+    0% {
+        filter: invert();
+        transform: scale(1.5);
+    }
+    50% {
+        filter: none;
+        transform: scale(1);
+    }
+    100% {
+        filter: invert();
+        transform: scale(1.5);
+    }
+}
