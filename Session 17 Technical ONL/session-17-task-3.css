@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-self: center;
+    justify-content: space-evenly;
+    width: 90%;
+
+    .item {
+        flex-direction: column;
+        width: 350px;
+
+        .image {
+            /* width: 350px; */
+            height: 447px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                /* height/: 447px; */
+                object-fit: cover;
+                object-position: center;
+                transition: 0.5s;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+        
+        text-align: center;
+
+        .heading {
+            font-family: "Josefin Sans", sans-serif;
+            color: #444444;
+            font-weight: 700;
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+
+        .price {
+            font-family: "Josefin Sans", sans-serif;
+            color: #ff2020;
+            font-size: 18px;
+            font-weight: 500;
+            display: block;
+        }
+    }
+}
