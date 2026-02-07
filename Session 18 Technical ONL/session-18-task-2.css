@@ -1,0 +1,43 @@
+.numbers {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        i {
+            font-size: 50px;
+
+            position: relative;
+            bottom: -10%;
+        }
+        .num {
+            font-size: 50px;
+            color: gray;
+        }
+        .text {
+            font-size: 20px;
+            color: lightgrey;
+
+            position: relative;
+            top: -20%;
+        }
+    }
+}
+
+@media (min-width:200px) and (max-width: 300px) {
+    .numbers {
+        justify-content: center;
+        gap: 99%;
+    }
+}
+
+@media (min-width:301px) and (max-width: 900px) {
+    .numbers {
+        justify-content: center;
+        gap: 25%;
+    }
+}
